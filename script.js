@@ -30,8 +30,10 @@ function create_grid(col, row) {
 
 function button_callback() {
     
-    num_rows = get_valid_input("Number of Rows: ");
-    num_cols = get_valid_input("Number of Columns: ");
+    let num_rows = get_valid_input("Number of Rows: ");
+    if (!num_rows) return false;
+    let num_cols = get_valid_input("Number of Columns: ");
+    if (!num_cols) return false;
     container.textContent = "";
     create_grid(num_rows, num_cols);
     button.textContent = "Refresh Grid";
