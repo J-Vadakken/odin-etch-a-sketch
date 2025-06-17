@@ -1,0 +1,61 @@
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    width: 80vh;
+    gap: 0px;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    flex: 1 1 0;
+}
+
+.box{
+    /* width: auto;
+    height: auto; */
+    background-color: blue;
+    padding: 0px;
+    /* border: black solid; */
+    flex: 1 1 0;
+}
+
+.grid_container{
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: auto;
+    background-color: #050446;
+    border: solid white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+button{
+    background-color: #050446;
+    border: none;
+    border-radius: 20px;
+    border-width: 1px;
+    border: white solid;
+    color: white;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: yellow;
+    color: black;
+}
